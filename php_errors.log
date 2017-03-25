@@ -1,0 +1,444 @@
+[18-Mar-2017 12:10:20 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:20 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:20 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:41 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:41 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:41 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:44 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:44 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:44 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:45 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:45 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:45 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:51 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:51 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:10:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:10:51 UTC] PHP Stack trace:
+[18-Mar-2017 12:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:19:19 UTC] PHP Warning:  require(bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:19:19 UTC] PHP Stack trace:
+[18-Mar-2017 12:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:19:19 UTC] PHP Fatal error:  require(): Failed opening required 'bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:19:19 UTC] PHP Stack trace:
+[18-Mar-2017 12:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:19:50 UTC] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:19:50 UTC] PHP Stack trace:
+[18-Mar-2017 12:19:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:19:50 UTC] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 4
+[18-Mar-2017 12:19:50 UTC] PHP Stack trace:
+[18-Mar-2017 12:19:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:30:49 UTC] PHP Warning:  getenv() expects parameter 1 to be string, object given in /home/ubuntu/workspace/bootstrap.php on line 12
+[18-Mar-2017 12:30:49 UTC] PHP Stack trace:
+[18-Mar-2017 12:30:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:30:49 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 12:30:49 UTC] PHP   3. getenv() /home/ubuntu/workspace/bootstrap.php:12
+[18-Mar-2017 12:35:35 UTC] PHP Catchable fatal error:  Argument 2 passed to QueryBuilder::all() must be an instance of String, string given, called in /home/ubuntu/workspace/Controllers/index.php on line 5 and defined in /home/ubuntu/workspace/Models/QueryBuilder.php on line 3
+[18-Mar-2017 12:35:35 UTC] PHP Stack trace:
+[18-Mar-2017 12:35:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:35:35 UTC] PHP   2. QueryBuilder::all() /home/ubuntu/workspace/Controllers/index.php:5
+[18-Mar-2017 12:36:58 UTC] PHP Catchable fatal error:  Argument 2 passed to QueryBuilder::all() must be an instance of String, string given, called in /home/ubuntu/workspace/Controllers/index.php on line 5 and defined in /home/ubuntu/workspace/Models/QueryBuilder.php on line 3
+[18-Mar-2017 12:36:58 UTC] PHP Stack trace:
+[18-Mar-2017 12:36:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:36:58 UTC] PHP   2. QueryBuilder::all() /home/ubuntu/workspace/Controllers/index.php:5
+[18-Mar-2017 12:37:00 UTC] PHP Catchable fatal error:  Argument 2 passed to QueryBuilder::all() must be an instance of String, string given, called in /home/ubuntu/workspace/Controllers/index.php on line 5 and defined in /home/ubuntu/workspace/Models/QueryBuilder.php on line 3
+[18-Mar-2017 12:37:00 UTC] PHP Stack trace:
+[18-Mar-2017 12:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:37:00 UTC] PHP   2. QueryBuilder::all() /home/ubuntu/workspace/Controllers/index.php:5
+[18-Mar-2017 12:38:26 UTC] PHP Warning:  require(/home/ubuntu/workspace/views/index.view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/index.php on line 8
+[18-Mar-2017 12:38:26 UTC] PHP Stack trace:
+[18-Mar-2017 12:38:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 12:38:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/views/index.view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/index.php on line 8
+[18-Mar-2017 12:38:26 UTC] PHP Stack trace:
+[18-Mar-2017 12:38:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:20:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/alert-parser/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/processalert.php on line 2
+[18-Mar-2017 22:20:14 UTC] PHP Stack trace:
+[18-Mar-2017 22:20:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/processalert.php:0
+[18-Mar-2017 22:20:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/alert-parser/bootstrap.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/processalert.php on line 2
+[18-Mar-2017 22:20:14 UTC] PHP Stack trace:
+[18-Mar-2017 22:20:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/processalert.php:0
+[18-Mar-2017 22:21:00 UTC] PHP Catchable fatal error:  Argument 1 passed to Alert::getFromText() must be an instance of String, string given, called in /home/ubuntu/workspace/Controllers/processalert.php on line 15 and defined in /home/ubuntu/workspace/Models/Alert.php on line 35
+[18-Mar-2017 22:21:01 UTC] PHP Stack trace:
+[18-Mar-2017 22:21:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/processalert.php:0
+[18-Mar-2017 22:21:01 UTC] PHP   2. Alert::getFromText() /home/ubuntu/workspace/Controllers/processalert.php:15
+[18-Mar-2017 22:22:14 UTC] PHP Catchable fatal error:  Argument 1 passed to setTransactionType() must be an instance of String, string given, called in /home/ubuntu/workspace/Models/Alert.php on line 38 and defined in /home/ubuntu/workspace/Models/Alert.php on line 167
+[18-Mar-2017 22:22:14 UTC] PHP Stack trace:
+[18-Mar-2017 22:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/processalert.php:0
+[18-Mar-2017 22:22:14 UTC] PHP   2. Alert::getFromText() /home/ubuntu/workspace/Controllers/processalert.php:15
+[18-Mar-2017 22:22:14 UTC] PHP   3. setTransactionType() /home/ubuntu/workspace/Models/Alert.php:38
+[18-Mar-2017 22:22:30 UTC] PHP Catchable fatal error:  Argument 3 passed to parseGTBank() must be an instance of Int, integer given, called in /home/ubuntu/workspace/Models/Alert.php on line 46 and defined in /home/ubuntu/workspace/Models/Alert.php on line 83
+[18-Mar-2017 22:22:30 UTC] PHP Stack trace:
+[18-Mar-2017 22:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/processalert.php:0
+[18-Mar-2017 22:22:30 UTC] PHP   2. Alert::getFromText() /home/ubuntu/workspace/Controllers/processalert.php:15
+[18-Mar-2017 22:22:30 UTC] PHP   3. parseGTBank() /home/ubuntu/workspace/Models/Alert.php:46
+[18-Mar-2017 22:41:17 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/Models/Router.php on line 10
+[18-Mar-2017 22:41:17 UTC] PHP Stack trace:
+[18-Mar-2017 22:41:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:41:17 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:7
+[18-Mar-2017 22:41:17 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:10
+[18-Mar-2017 22:41:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(7): Router->direct('/api')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[18-Mar-2017 22:45:43 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, integer given in /home/ubuntu/workspace/Models/Router.php on line 10
+[18-Mar-2017 22:45:43 UTC] PHP Stack trace:
+[18-Mar-2017 22:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:45:43 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:7
+[18-Mar-2017 22:45:43 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:10
+[18-Mar-2017 22:45:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(7): Router->direct('/api')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[18-Mar-2017 22:53:14 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/ubuntu/workspace/Controllers/index.php on line 6
+[18-Mar-2017 22:53:25 UTC] PHP Parse error:  syntax error, unexpected 'Array' (T_ARRAY) in /home/ubuntu/workspace/Controllers/index.php on line 6
+[18-Mar-2017 22:56:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(7): Router->direct('/api')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[18-Mar-2017 22:57:06 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 22:57:06 UTC] PHP Stack trace:
+[18-Mar-2017 22:57:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:57:06 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:7
+[18-Mar-2017 22:57:06 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/processalert.php:2
+[18-Mar-2017 22:58:55 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 22:58:55 UTC] PHP Stack trace:
+[18-Mar-2017 22:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:58:55 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:7
+[18-Mar-2017 22:58:55 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 22:58:56 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 22:58:56 UTC] PHP Stack trace:
+[18-Mar-2017 22:58:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 22:58:56 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:7
+[18-Mar-2017 22:58:56 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:00:35 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 23:00:35 UTC] PHP Stack trace:
+[18-Mar-2017 23:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 23:00:35 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:8
+[18-Mar-2017 23:00:35 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:00:57 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 23:00:57 UTC] PHP Stack trace:
+[18-Mar-2017 23:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 23:00:57 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:8
+[18-Mar-2017 23:00:57 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:02:07 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 23:02:07 UTC] PHP Stack trace:
+[18-Mar-2017 23:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 23:02:07 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:14
+[18-Mar-2017 23:02:07 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:02:08 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 23:02:08 UTC] PHP Stack trace:
+[18-Mar-2017 23:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 23:02:08 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:14
+[18-Mar-2017 23:02:08 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:02:40 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[18-Mar-2017 23:02:40 UTC] PHP Stack trace:
+[18-Mar-2017 23:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[18-Mar-2017 23:02:40 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:13
+[18-Mar-2017 23:02:40 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[18-Mar-2017 23:06:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api?text=%20%20...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[19-Mar-2017 14:20:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api?text=%20%20...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[19-Mar-2017 14:20:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('home/ubuntu/wor...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[19-Mar-2017 14:20:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api?text=%20%20...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[19-Mar-2017 14:20:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api?text=%20%20...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 13
+[19-Mar-2017 14:26:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/Controllers/index.php on line 13
+[19-Mar-2017 14:56:16 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[19-Mar-2017 14:56:16 UTC] PHP Stack trace:
+[19-Mar-2017 14:56:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[19-Mar-2017 14:56:16 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:13
+[19-Mar-2017 14:56:16 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[19-Mar-2017 15:21:11 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[19-Mar-2017 15:21:11 UTC] PHP Stack trace:
+[19-Mar-2017 15:21:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[19-Mar-2017 15:21:11 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:13
+[19-Mar-2017 15:21:11 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[19-Mar-2017 15:32:00 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/Models/Connection.php on line 2
+[19-Mar-2017 15:32:00 UTC] PHP Stack trace:
+[19-Mar-2017 15:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[19-Mar-2017 15:32:00 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:13
+[19-Mar-2017 15:32:00 UTC] PHP   3. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 10:29:43 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:29:43 UTC] PHP Stack trace:
+[24-Mar-2017 10:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:29:43 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:29:43 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:29:43 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:29:43 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:29:43 UTC] PHP Stack trace:
+[24-Mar-2017 10:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:29:43 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:29:43 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:29:43 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:29:43 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:29:43 UTC] PHP Stack trace:
+[24-Mar-2017 10:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:29:43 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:29:43 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:29:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('favicon.ico', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:30:07 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:30:07 UTC] PHP Stack trace:
+[24-Mar-2017 10:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:30:07 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:30:07 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:30:07 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:30:07 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:30:07 UTC] PHP Stack trace:
+[24-Mar-2017 10:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:30:07 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:30:07 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:30:07 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:30:07 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:30:07 UTC] PHP Stack trace:
+[24-Mar-2017 10:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:30:07 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:30:07 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:30:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('processalert.ph...', 'POST')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:32:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:32:44 UTC] PHP Stack trace:
+[24-Mar-2017 10:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:32:44 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:32:44 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:32:44 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:32:44 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:32:44 UTC] PHP Stack trace:
+[24-Mar-2017 10:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:32:44 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:32:44 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:32:44 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:32:44 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:32:44 UTC] PHP Stack trace:
+[24-Mar-2017 10:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:32:44 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:32:44 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:32:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('processalert.ph...', 'POST')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:33:54 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:54 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:54 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:54 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:33:54 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:54 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:54 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:54 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:54 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:33:54 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:54 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:33:54 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:54 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:33:54 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:33:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:33:57 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:57 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:57 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:57 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:33:57 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:57 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:57 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:57 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:57 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:33:57 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:57 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:33:57 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:57 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:33:57 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:33:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:33:59 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:59 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:59 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:59 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:33:59 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:59 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:33:59 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:59 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:33:59 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:33:59 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:33:59 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:33:59 UTC] PHP Stack trace:
+[24-Mar-2017 10:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:33:59 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:33:59 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:33:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:34:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:34:06 UTC] PHP Stack trace:
+[24-Mar-2017 10:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:34:06 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:34:06 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:2
+[24-Mar-2017 10:34:06 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:34:06 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/ubuntu/workspace/Models/Router.php on line 18
+[24-Mar-2017 10:34:06 UTC] PHP Stack trace:
+[24-Mar-2017 10:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:34:06 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:12
+[24-Mar-2017 10:34:06 UTC] PHP   3. Router->get() /home/ubuntu/workspace/routes.php:3
+[24-Mar-2017 10:34:06 UTC] PHP   4. array_merge() /home/ubuntu/workspace/Models/Router.php:18
+[24-Mar-2017 10:34:06 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ubuntu/workspace/Models/Router.php on line 6
+[24-Mar-2017 10:34:06 UTC] PHP Stack trace:
+[24-Mar-2017 10:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:34:06 UTC] PHP   2. Router->direct() /home/ubuntu/workspace/Controllers/index.php:13
+[24-Mar-2017 10:34:06 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/Models/Router.php:6
+[24-Mar-2017 10:34:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:35:19 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/Models/Router.php on line 3
+[24-Mar-2017 10:35:19 UTC] PHP Stack trace:
+[24-Mar-2017 10:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 10:35:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/Controllers/index.php:5
+[24-Mar-2017 10:35:19 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/Controllers/index.php:5
+[24-Mar-2017 10:35:19 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[24-Mar-2017 10:35:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('api', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:40:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('processalert.ph...', 'POST')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 10:41:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('processalert.ph...', 'POST')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 11:00:21 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 5
+[24-Mar-2017 11:00:21 UTC] PHP Stack trace:
+[24-Mar-2017 11:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:00:21 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:03:13 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:03:13 UTC] PHP Stack trace:
+[24-Mar-2017 11:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:03:13 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:03:46 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:03:46 UTC] PHP Stack trace:
+[24-Mar-2017 11:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:03:46 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:04:41 UTC] PHP Parse error:  syntax error, unexpected '$pdo' (T_VARIABLE) in /home/ubuntu/workspace/bootstrap.php on line 12
+[24-Mar-2017 11:04:41 UTC] PHP Stack trace:
+[24-Mar-2017 11:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:04:55 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:04:55 UTC] PHP Stack trace:
+[24-Mar-2017 11:04:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:04:55 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:05:15 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:05:15 UTC] PHP Stack trace:
+[24-Mar-2017 11:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:05:15 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:05:30 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:05:30 UTC] PHP Stack trace:
+[24-Mar-2017 11:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:05:30 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:06:56 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:06:56 UTC] PHP Stack trace:
+[24-Mar-2017 11:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:06:56 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:07:16 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:07:16 UTC] PHP Stack trace:
+[24-Mar-2017 11:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:07:16 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:07:50 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:07:50 UTC] PHP Stack trace:
+[24-Mar-2017 11:07:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:07:50 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:09:28 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 7
+[24-Mar-2017 11:09:28 UTC] PHP Stack trace:
+[24-Mar-2017 11:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:09:28 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:09:47 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 7
+[24-Mar-2017 11:09:47 UTC] PHP Stack trace:
+[24-Mar-2017 11:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:09:47 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:10:28 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 7
+[24-Mar-2017 11:10:28 UTC] PHP Stack trace:
+[24-Mar-2017 11:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:10:28 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:14:19 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 7
+[24-Mar-2017 11:14:19 UTC] PHP Stack trace:
+[24-Mar-2017 11:14:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:14:19 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:16:11 UTC] PHP Fatal error:  Class 'App' not found in /home/ubuntu/workspace/bootstrap.php on line 6
+[24-Mar-2017 11:16:11 UTC] PHP Stack trace:
+[24-Mar-2017 11:16:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Controllers/index.php:0
+[24-Mar-2017 11:16:11 UTC] PHP   2. require() /home/ubuntu/workspace/Controllers/index.php:4
+[24-Mar-2017 11:20:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The URI cannot be found' in /home/ubuntu/workspace/Models/Router.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/index.php(13): Router->direct('favicon.ico', 'GET')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Models/Router.php on line 9
+[24-Mar-2017 13:07:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The Key does not exist' in /home/ubuntu/workspace/Models/App.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/processalert.php(15): App::get('connection')
+#1 /home/ubuntu/workspace/Controllers/index.php(13): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Models/App.php on line 13
+[24-Mar-2017 13:08:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The Key does not exist' in /home/ubuntu/workspace/Models/App.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/Controllers/processalert.php(15): App::get('connection')
+#1 /home/ubuntu/workspace/Controllers/index.php(13): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Models/App.php on line 13
