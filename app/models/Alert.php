@@ -5,7 +5,6 @@ class Alert {
     public $bankid, $lastname, $firstname, $type, $accountnumber, $location, $description, $amount, $date, $remarks, $time, $documentnumber, $currentbalance, $accountbalance;
 
     public function __Construct($bankid = null ,$lastname = null, $firstname = null ,$type = null, $accountnumber = null, $amount = null , $time = null, $date = null, $location = null, $description = null, $remarks = null, $documentnumber = null, $accountbalance = null,$currentbalance = null){
-        $this->alertid = $alertid;
         $this->bankid = $bankid;
         $this->lastname = $lastname;
         $this->firstname = $firstname;

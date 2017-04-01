@@ -53,26 +53,14 @@ We wish to inform you that a Debit transaction occured on your account with us
 
 The details of the transaction are shown below:
 Transaction Notification
-Account Number
-:
-******1234
-Transaction Location
-:
-IKEJA- ALLEN
-Amount
-:
-10.00
-Value Date
-:
-01-Jan-2000
-Remarks
-:
-Time of Transaction
-: 
-12:00 AM
-Document Number 
-: 
-0
+Account Number : ******1234
+Transaction Location : IKEJA- ALLEN
+Amount : 10.00
+Value Date : 01-Jan-2000
+Remarks :
+Time of Transaction : 12:00 AM
+Document Number : 0
+
 The balances on this account as at 12:00 AM are as follows;
 Current Balance:
 1,000,000.00 Naira

@@ -18,11 +18,14 @@ class PageController {
     }
     
     public function api(){
-        
+        $output = [];
         if(is_string($_GET["text"])){
             $alertbody = urldecode($_GET["text"]);
         
         } else {
+            header('Content-Type: application/json');
+            $output = ["status" => "INVALID_REQUEST", "error_message" => "The text parameter is empty"];
+            echo json_encode($output);
             throw new Exception("No text entered as parameter");
         }
         
@@ -35,11 +38,15 @@ class PageController {
         } else if(stripos($alertbody, "wemaOnline")){
             $bank = Bank::findByName("Wema Bank", $pdo);
         } else {
-            exit;
+            header('Content-Type: application/json');
+            $output = ["status" => "INVALID_REQUEST", "error_message" => "The text parameter is not sufficient for request"];
+            echo json_encode($output);
+            throw new Exception("The text parameter is not sufficient for request");
         }
         $alert2Process = Alert::getFromText($alertbody, $bank, App::get("connection"));
         header('Content-Type: application/json');
-        echo json_encode($alert2Process);
+        $output = ["status" => "OK", "results" => $alert2Process];
+        echo json_encode($output);
         
     }
     
