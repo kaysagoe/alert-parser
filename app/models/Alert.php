@@ -2,9 +2,9 @@
 namespace App\Models;
 use \PDO;
 class Alert {
-    public $alertid, $bankid, $lastname, $firstname, $type, $accountnumber, $location, $description, $amount, $date, $remarks, $time, $documentnumber, $currentbalance, $accountbalance;
+    public $bankid, $lastname, $firstname, $type, $accountnumber, $location, $description, $amount, $date, $remarks, $time, $documentnumber, $currentbalance, $accountbalance;
 
-    public function __Construct($alertid = null, $bankid = null ,$lastname = null, $firstname = null ,$type = null, $accountnumber = null, $amount = null , $time = null, $date = null, $location = null, $description = null, $remarks = null, $documentnumber = null, $accountbalance = null,$currentbalance = null){
+    public function __Construct($bankid = null ,$lastname = null, $firstname = null ,$type = null, $accountnumber = null, $amount = null , $time = null, $date = null, $location = null, $description = null, $remarks = null, $documentnumber = null, $accountbalance = null,$currentbalance = null){
         $this->alertid = $alertid;
         $this->bankid = $bankid;
         $this->lastname = $lastname;
@@ -20,18 +20,6 @@ class Alert {
         $this->documentnumber = $documentnumber;
         $this->currentbalance = $currentbalance;
         $this->accountbalance = $accountbalance;
-    }
-
-    public function save(PDO $pdo, Bank $bank){
-        // Insert or Update instance of Alert Class 
-        if ($this->alertid == null) {
-            $saveAlertQuery = $pdo->prepare("insert into alerts values (? ,? , ?, ?, ?,?, ?, ?, ?, ? , ? , ? , ? , ? , ?)");
-            return $saveAlertQuery->execute(array(null, $bank->bankid, addslashes($this->lastname), addslashes($this->firstname), addslashes($this->type), addslashes($this->accountnumber), addslashes($this->location), addslashes($this->description), $this->amount, addslashes($this->date), addslashes($this->remarks), addslashes($this->time), addslashes($this->documentnumber), $this->currentbalance, $this->accountbalance ));
-        } else {
-            // Update Instance
-            $updateAlertQuery = $pdo->prepare("update alerts set bankid = ?, lastname = ?, firstname = ?, type = ?, accountnumber = ?, location = ?, description = ?, amount = ?, date = ?, remarks = ?, time = ?, documentnumber = ?, currentbalance = ?, accountbalance = ? where alertid = ?");
-            return $updateAlertQuery->execute(array($this->bankid, $this->lastname, $this->firstname, $this->type, $this->accountnumber, $this->location, $this->description, $this->amount, $this->date, $this->remarks, $this->time, $this->documentnumber, $this->currentbalance, $this->accountbalance, $this->alertid));
-        }
     }
 
     public static function getFromText($inputText, Bank $bank, PDO $pdo){

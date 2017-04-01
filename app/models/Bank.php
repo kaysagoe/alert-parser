@@ -10,14 +10,6 @@ class Bank {
         $this->sameline = $sameline;
     }
 
-    public static function findById($bankid, PDO $pdo){
-        // Returns an instance of the Bank Class from the database with bankid
-        $bankQueryWithID = $pdo->prepare("select * from banks where bankid = ?");
-        $bankQueryWithID->execute(array($bankid));
-        $tempClass = $bankQueryWithID->fetch();
-        return new static($tempClass["bankid"], $tempClass["name"], $tempClass["sameline"]);
-    }
-
     public static function findByName($name, PDO $pdo){
         // Returns an instance of the Bank Class from the database with name
         $bankQueryWithName = $pdo->prepare("select * from banks where name = ?");
