@@ -22,6 +22,7 @@ class ComposerStaticInit375d6b9d1597adb6d4b0240e27f502a9
 
     public static $classMap = array (
         'App\\Controllers\\PageController' => __DIR__ . '/../..' . '/app/controllers/PageController.php',
+        'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/controllers/UserController.php',
         'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
         'App\\Core\\Connection' => __DIR__ . '/../..' . '/core/Connection.php',
         'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',

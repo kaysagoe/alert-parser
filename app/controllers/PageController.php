@@ -13,9 +13,8 @@ use Html2Text;
 
 class PageController {
     public function home(){
-        $result = QueryBuilder::all(App::get("connection"));
     
-        view("index", compact("result"));
+        view("index");
     }
     
     public function api(){
@@ -42,6 +41,10 @@ class PageController {
         header('Content-Type: application/json');
         echo json_encode($alert2Process);
         
+    }
+    
+    public function docs(){
+        view("docs");
     }
 }
 
