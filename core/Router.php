@@ -1,5 +1,6 @@
 <?php
 namespace App\Core;
+use \Exception;
 class Router {
     protected $routes = ["GET" => [], "POST" => []];
     

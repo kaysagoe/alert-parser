@@ -53,6 +53,15 @@ class PageController {
     public function docs(){
         view("docs");
     }
+    
+    public function demo(){
+        $alertexample = urlencode($_POST["alert-example"]);
+        $curl = curl_init();
+        curl_setopt_array( $curl ,array(CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL => "https://alertparser-kaysagoe.c9users.io/api?text=".$alertexample, CURLOPT_FOLLOWLOCATION => true));
+        $response = curl_exec($curl);
+        curl_close($curl);
+        echo $response;
+    }
 }
 
 ////////////////////////////////////// HELPER FUNCTIONS ////////////////////////////////////////////////////////////////////

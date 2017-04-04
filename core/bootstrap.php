@@ -2,8 +2,14 @@
 require "./vendor/autoload.php";
 use App\Core\App;
 use App\Core\Connection;
-App::bind("config", require "./config.php");
-App::bind("database", App::get("config")["database"]);
+if(getenv("DATABASE_URL")){
+    $db = getenv("DATABASE_URL");
+    $db["dbname"] = getenv("dbname");
+    App::bind("database", $db);
+} else {
+    App::bind("config", require "./config.php");
+    App::bind("database", App::get("config")["database"]);
+}
 App::bind("connection", Connection::make(App::get("database")));
 
 function view($name, $data = []){

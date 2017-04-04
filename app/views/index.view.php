@@ -44,7 +44,7 @@
         <div class="row top-margin25">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <form method="post" action"#">
+                <form method="post" action="./demo">
                     <div class="form-group">
                         <textarea class="form-control min-height400" name="alert-example" placeholder="Enter alert message...">
 Dear DOE, JANE

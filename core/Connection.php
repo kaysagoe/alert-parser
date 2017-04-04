@@ -6,8 +6,8 @@ class Connection {
         try {
             return new PDO(
                 "mysql:dbname=".$config["dbname"].";port=".$config["port"].";host=".$config["host"], 
-                $config["username"], 
-                $config["password"],
+                $config["user"], 
+                $config["pass"],
                 $config["options"]
                 );
         } catch (Exception $e){
