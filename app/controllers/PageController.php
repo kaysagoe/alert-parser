@@ -35,7 +35,6 @@ class PageController {
         
         if (strpos($alertbody, "Guaranty Trust Bank")){
             $bank = Bank::findByName("Guaranty Trust Bank", App::get("connection"));
-            die(var_dump($bank));
         } else if(stripos($alertbody, "wemaOnline")){
             $bank = Bank::findByName("Wema Bank", App::get("connection"));
         } else {
