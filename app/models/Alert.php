@@ -47,6 +47,7 @@ class Alert {
             
         }
         $alert2Process->amount = (float) stripcommas($alert2Process->amount);
+        die(var_dump($alert2Process));
         return $alert2Process;
     }
 }
@@ -126,7 +127,6 @@ class Alert {
 
     function parseGenericTagsSameLine(Alert &$alert2Process, Bank $bank, $inputArray, $lineIndex, PDO $pdo){
         $genericTagsArray = GenericTag::findAllByBankId($bank->bankid, $pdo);
-        die(var_dump($genericTagsArray));
         foreach($genericTagsArray as $genericTag){
             $key = $genericTag->name;
             if($alert2Process->$key == null){
