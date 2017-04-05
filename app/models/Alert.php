@@ -45,7 +45,9 @@ class Alert {
             }
             
             $bank->sameline == true ? parseGenericTagsSameLine($alert2Process, $bank, $inputArray, $index, $pdo) : parseGenericTagsNextLine($alert2Process, $bank, $inputArray, $index, $pdo);
-            
+            if ($index == 5){
+                die(var_dump($alert2Process));
+            }
         }
         $alert2Process->amount = (float) stripcommas($alert2Process->amount);
         return $alert2Process;
@@ -126,6 +128,7 @@ class Alert {
     }
 
     function parseGenericTagsSameLine(Alert &$alert2Process, Bank $bank, $inputArray, $lineIndex, PDO $pdo){
+        echo "here";
         $genericTagsArray = GenericTag::findAllByBankId($bank->bankid, $pdo);
         foreach($genericTagsArray as $genericTag){
             $key = $genericTag->name;
