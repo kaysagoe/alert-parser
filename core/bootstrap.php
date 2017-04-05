@@ -3,7 +3,7 @@ require "./vendor/autoload.php";
 use App\Core\App;
 use App\Core\Connection;
 if(getenv("DATABASE_URL")){
-    $db = getenv("DATABASE_URL");
+    $db = parse_url(getenv("DATABASE_URL"));
     $db["type"] = "pgsql";
     App::bind("database", $db);
 } else {
