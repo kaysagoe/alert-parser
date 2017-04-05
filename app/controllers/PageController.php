@@ -35,8 +35,9 @@ class PageController {
         
         if (strpos($alertbody, "Guaranty Trust Bank")){
             $bank = Bank::findByName("Guaranty Trust Bank", App::get("connection"));
+            die(var_dump($bank));
         } else if(stripos($alertbody, "wemaOnline")){
-            $bank = Bank::findByName("Wema Bank", $pdo);
+            $bank = Bank::findByName("Wema Bank", App::get("connection"));
         } else {
             header('Content-Type: application/json');
             $output = ["status" => "INVALID_REQUEST", "error_message" => "The text parameter is not sufficient for request"];

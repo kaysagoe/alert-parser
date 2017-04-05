@@ -43,7 +43,7 @@ class Alert {
                 break;
             }
             
-            $bank->sameline == 1 ? parseGenericTagsSameLine($alert2Process, $bank, $inputArray, $index, $pdo) : parseGenericTagsNextLine($alert2Process, $bank, $inputArray, $index, $pdo);
+            $bank->sameline == true ? parseGenericTagsSameLine($alert2Process, $bank, $inputArray, $index, $pdo) : parseGenericTagsNextLine($alert2Process, $bank, $inputArray, $index, $pdo);
             
         }
         $alert2Process->amount = (float) stripcommas($alert2Process->amount);
