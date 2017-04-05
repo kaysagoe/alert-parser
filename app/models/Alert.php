@@ -26,7 +26,6 @@ class Alert {
         $alert2Process = new Alert();
         $alert2Process->type = setTransactionType($inputText);
         $inputArray = formatArray(parseTextToArray($inputText));
-        die(var_dump($inputArray));
         $alert2Process->bankid = $bank->bankid;
 
         for ($index=0; $index < count($inputArray) ; $index++) {
