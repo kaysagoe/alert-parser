@@ -5,7 +5,7 @@ use App\Core\Connection;
 if(getenv("DATABASE_URL")){
     $db = parse_url(getenv("DATABASE_URL"));
     $db["type"] = "pgsql";
-    $db["path"] = ltrim($db[$path], "/");
+    $db["path"] = ltrim($db["path"], "/");
     App::bind("database", $db);
 } else {
     App::bind("config", require "./config.php");
