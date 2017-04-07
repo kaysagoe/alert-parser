@@ -130,7 +130,7 @@ class Alert {
         $genericTagsArray = GenericTag::findAllByBankId($bank->bankid, $pdo);
         foreach($genericTagsArray as $genericTag){
             error_log("The Generic Tag is: $genericTag->alias");
-            $key = $genericTag->name;
+            $key = trim($genericTag->name);
             if($alert2Process->$key == null){
                 
                 if(is_int(stripos($inputArray[$lineIndex], trim($genericTag->alias)))){
