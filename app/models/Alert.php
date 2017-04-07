@@ -126,14 +126,14 @@ class Alert {
 
     function parseGenericTagsSameLine(Alert &$alert2Process, Bank $bank, $inputArray, $lineIndex, PDO $pdo){
         error_log("New check");
-        error_log("The line is: ". $inputArray[$lineIndex]);
+        error_log("The line is: ". htmlentities($inputArray[$lineIndex]));
         $genericTagsArray = GenericTag::findAllByBankId($bank->bankid, $pdo);
         foreach($genericTagsArray as $genericTag){
             error_log("The Generic Tag is: $genericTag->alias");
             $key = $genericTag->name;
             if($alert2Process->$key == null){
                 
-                if(is_int(stripos($inputArray[$lineIndex], $genericTag->alias))){
+                if(is_int(stripos($inputArray[$lineIndex], trim($genericTag->alias)))){
                     error_log("Outcome: TRUE");
                    $itemarray = explode(":", $inputArray[$lineIndex], 2);
                    if (count($itemarray) > 1){
