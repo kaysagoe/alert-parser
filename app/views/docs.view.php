@@ -30,7 +30,7 @@
                     <p>The Alerts Parser API converts Bank Alerts email messages and returns the information in the alert notification as structured data.</p>
                     <p>A Parse Alert request is an HTTP URL in the following form:</p>
                     <div class="grey-background">
-                        <p class="text-primary">http://alertparser-kaysagoe.c9users.io/api?parameters</p>
+                        <p class="text-primary">http://alertparser.herokuapp.com/api?parameters</p>
                     </div>
                     <p>Certain parameters are required to initiate a Parse Alert request. As is standard in URLs all parameters are separated using the ampersand (&) character.</p>
                 </div>
@@ -49,7 +49,27 @@
                     <h3>Responses</h3>
                     <p>The response of the API request is in JSON format.</p>
                     <p>The following shows an example of a response of an API Request</p>
-                    <div class="grey-background"></div>
+                    <div class="grey-background">
+                        {
+                            "status":"OK",
+                            "results":{
+                                "bankid":1,
+                                "lastname":"DOE",
+                                "firstname":"JANE",
+                                "type":"Debit",
+                                "accountnumber":"******1234",
+                                "location":"IKEJA- ALLEN",
+                                "description":null,
+                                "amount":10,
+                                "date":"01-Jan-2000",
+                                "remarks":"",
+                                "time":"12:00 AM",
+                                "documentnumber":"0",
+                                "currentbalance":1000000,
+                                "accountbalance":1000000
+                                }
+                        }
+                    </div>
                     <ul>
                         <li><p><b>"status"</b> - It contains the metadata on the request</p></li>
                         <li><p><b>"results"</b> - It contains data from the alert notification sent in the request</p></li>
