@@ -14,8 +14,8 @@
                         <ul class="nav nav-tabs pull-right">
                             <li role="presentation"><a href="./">Home</a></li>
                             <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation" ><a href="#">Login</a></li>
-                            <li role="presentation" class="active"><a href="#">Signup</a></li>
+                            <li role="presentation" ><a href="./user/home">Login</a></li>
+                            <li role="presentation" class="active"><a href="./user/new">Signup</a></li>
                         </ul>
                     </nav>
                 </div>

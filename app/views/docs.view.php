@@ -14,8 +14,8 @@
                         <ul class="nav nav-tabs pull-right">
                             <li role="presentation"><a href="./">Home</a></li>
                             <li role="presentation" class="active"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation"><a href="#">Login</a></li>
-                            <li role="presentation"><a href="#">Signup</a></li>
+                            <li role="presentation"><a href="./user/home">Login</a></li>
+                            <li role="presentation"><a href="./user/new">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -50,27 +50,27 @@
                     <p>The response of the API request is in JSON format.</p>
                     <p>The following shows an example of a response of an API Request</p>
                     <div class="grey-background">
-                        {
-                            "status":"OK",
-                            "results":{
-                                "bankid":1,
-                                "lastname":"DOE",
-                                "firstname":"JANE",
-                                "type":"Debit",
-                                "accountnumber":"******1234",
-                                "location":"IKEJA- ALLEN",
-                                "description":null,
-                                "amount":10,
-                                "date":"01-Jan-2000",
-                                "remarks":"",
-                                "time":"12:00 AM",
-                                "documentnumber":"0",
-                                "currentbalance":1000000,
-                                "accountbalance":1000000
-                                }
+                        {<br />
+                            "status":"OK",<br />
+                            "results":{<br />
+                                "bankid":1,<br />
+                                "lastname":"DOE",<br />
+                                "firstname":"JANE",<br />
+                                "type":"Debit",<br />
+                                "accountnumber":"******1234",<br />
+                                "location":"IKEJA- ALLEN",<br />
+                                "description":null,<br />
+                                "amount":10,<br />
+                                "date":"01-Jan-2000",<br />
+                                "remarks":"",<br />
+                                "time":"12:00 AM",<br />
+                                "documentnumber":"0",<br />
+                                "currentbalance":1000000,<br />
+                                "accountbalance":1000000<br />
+                                }<br />
                         }
                     </div>
-                    <ul>
+                    <ul class="top-margin25">
                         <li><p><b>"status"</b> - It contains the metadata on the request</p></li>
                         <li><p><b>"results"</b> - It contains data from the alert notification sent in the request</p></li>
                     </ul>

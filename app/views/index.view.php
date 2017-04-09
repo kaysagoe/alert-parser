@@ -14,8 +14,8 @@
                         <ul class="nav nav-tabs pull-right">
                             <li role="presentation" class="active"><a href="./">Home</a></li>
                             <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation"><a href="#">Login</a></li>
-                            <li role="presentation"><a href="#">Signup</a></li>
+                            <li role="presentation"><a href="./user/home">Login</a></li>
+                            <li role="presentation"><a href="./user/new">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -26,7 +26,7 @@
                     <h1 class="text-center">Process Nigerian bank alerts</h1>
                     <h4 class="text-center top-margin25">Convert bank alert emails to structured data</h4>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary top-margin25 text-center">Get Started</a>
+                            <a href="./docs" class="btn btn-primary top-margin25 text-center">Get Started</a>
                         </div>
                 </div>
             </div>
