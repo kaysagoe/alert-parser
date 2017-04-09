@@ -16,8 +16,8 @@ class User {
     }
 
     public function authenticate() {
-        $authQuery = App::get('connection')->prepare('select * from users where email = ? and password = ?');
-        $authQuery->execute(array($this->email, $this->password));
+        $authQuery = App::get('connection')->prepare('select * from users where email = ?');
+        $authQuery->execute(array($this->email));
         $result_array = $authQuery->fetch();
         if ($result_array != false){
             if(password_verify($this->password, $result_array['password'])){

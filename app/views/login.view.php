@@ -14,8 +14,8 @@
                         <ul class="nav nav-tabs pull-right">
                             <li role="presentation"><a href="./">Home</a></li>
                             <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation" class="active"><a href="./user/home">Login</a></li>
-                            <li role="presentation"><a href="./user/new">Signup</a></li>
+                            <li role="presentation" class="active"><a href="./home">Login</a></li>
+                            <li role="presentation"><a href="./new">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -29,7 +29,7 @@
                 <div class = "col-md-3"></div>
                 <div class = "col-md-6">
                     <div class="center-block">
-                    <form method="post" action="./user/home">
+                    <form method="post" action="./home">
                         <input class="form-control" type="email" name="email" placeholder="Email Address" >
                         <input class="form-control" type="password" name="password" placeholder="Password">
                         <button type="submit" class="btn btn-primary">Submit</button>

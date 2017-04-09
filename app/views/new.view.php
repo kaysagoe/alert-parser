@@ -14,8 +14,8 @@
                         <ul class="nav nav-tabs pull-right">
                             <li role="presentation"><a href="./">Home</a></li>
                             <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation" ><a href="./user/home">Login</a></li>
-                            <li role="presentation" class="active"><a href="./user/new">Signup</a></li>
+                            <li role="presentation" ><a href="./home">Login</a></li>
+                            <li role="presentation" class="active"><a href="./new">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -29,7 +29,7 @@
                 <div class = "col-md-2"></div>
                 <div class = "col-md-8">
                     <div class="center-block">
-                    <form method="post" action="./user/new">
+                    <form method="post" action="./new">
                         <div class="form-group">
                             <label for="firstname">Firstname</label>
                             <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Firstname">
