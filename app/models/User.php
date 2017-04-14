@@ -20,9 +20,9 @@ class User {
         $authQuery->execute(array($this->email));
         $result_array = $authQuery->fetch();
         if ($result_array != false){
-            if(password_verify($this->password, $result_array['password'])){
-                $this->firstname = $result_array['firstname'];
-                $this->lastname = $result_array['lastname'];
+            if(password_verify($this->password, trim($result_array['password']))){
+                $this->firstname = trim($result_array['firstname']);
+                $this->lastname = trim($result_array['lastname']);
                 $this->password = null;
                 return true;
             } else{
