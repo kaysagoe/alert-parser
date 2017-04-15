@@ -31,16 +31,16 @@
   <div class="row">
     <div class="table-responsive">
       <table class="table">
-        <th>
+        <tr>
         <td width="40%">Application Name</td>
         <td width="40%">Key</td>
         <td width="20%">Options</td>
-        </th>
+        </tr>
         <?php foreach($keys as $key) : ?>
             <tr>
-                <td><?= $key->name; ?></td>
-                <td><?= $key->key; ?></td>
-                <td><a href="#" class="btn btn-danger">Delete</a></td>
+                <td width="40%"><?= $key->name; ?></td>
+                <td width="40%"><?= $key->key; ?></td>
+                <td width="20%"><a href="#" class="btn btn-danger">Delete</a></td>
             </tr>
         <?php endforeach ?>
       </table>
