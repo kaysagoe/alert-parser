@@ -19,14 +19,14 @@ class PageController {
     
     public function api(){
         $output = [];
-        if(is_string($_GET["text"])){
+        $key = new ApiKey(null, null, $_GET['key']);
+        if(is_string($_GET["text"]) && $key->authenticate()){
             $alertbody = urldecode($_GET["text"]);
-        
         } else {
             header('Content-Type: application/json');
-            $output = ["status" => "INVALID_REQUEST", "error_message" => "The text parameter is empty"];
+            $output = ["status" => "INVALID_REQUEST", "error_message" => "A parameter is missing"];
             echo json_encode($output);
-            throw new Exception("No text entered as parameter");
+            throw new Exception("Missing Parameter");
         }
         
         if(is_html($alertbody)){

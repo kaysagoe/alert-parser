@@ -50,7 +50,7 @@
                             <label for="cpassword">Confirm Password</label>
                             <input type="password" class="form-control" name="cpassword" id="cpassword" placeholder="Confirm Password">
                         </div>
-                        <button type="submit" class="btn btn-primary text-center">Signup</button
+                        <button type="submit" class="btn btn-primary text-center">Signup</button>
                     </form>
                 </div>
                 </div>

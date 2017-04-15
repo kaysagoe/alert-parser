@@ -1,16 +1,18 @@
 <?php
 namespace App\Controllers;
 use App\Models\User;
+use App\Models\ApiKey;
 
 class UserController {
     public function home(){
         session_start();
 
         if (isset($_SESSION['auth_user'])){
-            view('home');
+            $keys = ApiKey::AllFrom($_SESSION["auth_user"]->email);
+            view('users/home', compact('keys'));
         } else {
 
-            view('login');
+            view('users/login');
         }
 
     }
@@ -28,7 +30,7 @@ class UserController {
     }
 
     public function signup(){
-        view('new');
+        view('users/new');
 
     }
 
