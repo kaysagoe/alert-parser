@@ -3,7 +3,7 @@ namespace App\Controllers;
 use App\Models\ApiKey;
 
 class ApiKeyController {
-    public function new(){
+    public function add(){
         session_start();
         if(isset($_SESSION['auth_user']) == false){
             redirect($_SERVER['DOCUMENT_ROOT']);
@@ -18,6 +18,7 @@ class ApiKeyController {
             redirect('./new');
         }
         $key = new ApiKey($_POST['name'], $_SESSION['auth_user']->email);
+        die(var_dump($key->save()));
         if ($key->save()){
             redirect($_SERVER['DOCUMENT_ROOT'].'user/home');
         }

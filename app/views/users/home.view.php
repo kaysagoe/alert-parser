@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Home | Bank Alert Parser API</title>
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="./app/resources/styles/styles.css" type="text/css" />
 </head>
 <body>
 <div class="container">
@@ -23,7 +25,7 @@
       <h1>My API Keys</h1>
     </div>
     <div class="col-md-1">
-      <a href="#" class="btn btn-success pull-right top-margin25">Create</a>
+      <a href="/apikey/new" class="btn btn-success pull-right top-margin25">Create</a>
     </div>
   </div>
   <div class="row">

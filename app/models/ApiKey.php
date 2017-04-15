@@ -1,5 +1,7 @@
 <?php
 namespace App\Models;
+use App\Core\App;
+use \PDO;
 
 class ApiKey {
     public $key;
@@ -9,7 +11,7 @@ class ApiKey {
     public function __Construct($name, $email, $key = null){
         $this->name = $name;
         $this->email = $email;
-        $this->key = is_null($key) ? $key : uniqid();
+        $this->key = is_null($key) ? uniqid() : $key;
     }
 
     public static function AllFrom($email){

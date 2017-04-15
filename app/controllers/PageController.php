@@ -9,6 +9,7 @@ use App\Models\Alert;
 use App\Core\App;
 use \Exception;
 use Html2Text;
+use App\Models\ApiKey;
 
 
 class PageController {

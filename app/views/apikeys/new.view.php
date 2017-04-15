@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>New Key | Bank Alert Parser API</title>
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./app/resources/styles/styles.css" type="text/css" />
 </head>
 <body>
 <div class="container">
