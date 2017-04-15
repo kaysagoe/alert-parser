@@ -18,7 +18,6 @@ class ApiKeyController {
             redirect('./new');
         }
         $key = new ApiKey($_POST['name'], $_SESSION['auth_user']->email);
-        die(var_dump($key->save()));
         if ($key->save()){
             redirect($_SERVER['DOCUMENT_ROOT'].'user/home');
         }

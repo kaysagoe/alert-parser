@@ -32,9 +32,9 @@
     <div class="table-responsive">
       <table class="table">
         <th>
-        <td>Application Name</td>
-        <td>Key</td>
-        <td>Options</td>
+        <td width="40%">Application Name</td>
+        <td width="40%">Key</td>
+        <td width="20%">Options</td>
         </th>
         <?php foreach($keys as $key) : ?>
             <tr>
