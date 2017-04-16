@@ -6,20 +6,19 @@
         <link rel="stylesheet" href="./app/resources/styles/styles.css" type="text/css" />
     </head>
     <body>
-        <div class="container">
-            <div class="row">
+        <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6" role="navigation">
                     <nav>
                         <ul class="nav nav-tabs pull-right">
-                            <li role="presentation"><a href="./">Home</a></li>
-                            <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation" class="active"><a href="./home">Login</a></li>
-                            <li role="presentation"><a href="./new">Signup</a></li>
+                            <li role="presentation"><a href="<?= $root ?>">Home</a></li>
+                            <li role="presentation"><a href="<?= "$root/docs" ?>">API Documentation</a></li>
+                            <li role="presentation"><a href="<?= "$root/user/home" ?>">Login</a></li>
+                            <li role="presentation"><a href="<?= "$root/user/new" ?>">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
-            </div>
+          </div>
             <div class="row">
                 <div class="col-md-12">
                     <h1>Login</h1>

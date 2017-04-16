@@ -12,7 +12,7 @@ if(getenv("DATABASE_URL")){
     App::bind("database", App::get("config")["database"]);
 }
 App::bind("connection", Connection::make(App::get("database")));
-
+$root = 'www.alertparser.herokuapp.com';
 function view($name, $data = []){
     extract($data);
     return require "./app/views/$name.view.php";

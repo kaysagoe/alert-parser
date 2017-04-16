@@ -6,20 +6,22 @@ class ApiKeyController {
     public function add(){
         session_start();
         if(isset($_SESSION['auth_user']) == false){
-            redirect($_SERVER['DOCUMENT_ROOT']);
+            redirect("$root/user/home");
         }
+        $auth = isset($_SESSION['auth_user']);
 
-        view('apikeys/new');
+        view('apikeys/new', compact('auth') );
     }
 
     public function create(){
         session_start();
+        $auth = isset($_SESSION['auth_user']);
         if(empty($_POST['name'])){
             redirect('./new');
         }
         $key = new ApiKey($_POST['name'], $_SESSION['auth_user']->email);
         if ($key->save()){
-            redirect($_SERVER['DOCUMENT_ROOT'].'user/home');
+            redirect("$root/user/home", compact('auth') );
         }
     }
 }

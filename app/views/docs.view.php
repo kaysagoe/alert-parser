@@ -12,14 +12,14 @@
                 <div class="col-md-6" role="navigation">
                     <nav>
                         <ul class="nav nav-tabs pull-right">
-                            <li role="presentation"><a href="./">Home</a></li>
-                            <li role="presentation" class="active"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation"><a href="./user/home">Login</a></li>
-                            <li role="presentation"><a href="./user/new">Signup</a></li>
+                            <li role="presentation"><a href="<?= $root ?>">Home</a></li>
+                            <li role="presentation"><a href="<?= "$root/docs" ?>">API Documentation</a></li>
+                            <li role="presentation"><a href="<?= "$root/user/home" ?>">Login</a></li>
+                            <li role="presentation"><a href="<?= "$root/user/new" ?>">Signup</a></li>
                         </ul>
                     </nav>
                 </div>
-            </div>
+          </div>
             <div class="row">
                 <div class="col-md-12">
                     <h1>Guide</h1>

@@ -3,7 +3,8 @@
 <head>
   <title>Home | Bank Alert Parser API</title>
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="./app/resources/styles/styles.css" type="text/css" />
+  <link rel="stylesheet" href="<?= "$root/app/resources/styles/styles.css"?>" type="text/css" />
+
 </head>
 <body>
 <div class="container">
@@ -12,9 +13,9 @@
                 <div class="col-md-6" role="navigation">
                     <nav>
                         <ul class="nav nav-tabs pull-right">
-                            <li role="presentation" class="active"><a href="./">Home</a></li>
-                            <li role="presentation"><a href="./docs">API Documentation</a></li>
-                            <li role="presentation"><a href="./user/home">Dashboard</a></li>
+                            <li role="presentation"><a href="<?= $root ?>">Home</a></li>
+                            <li role="presentation"><a href="<?= "$root/docs" ?>">API Documentation</a></li>
+                            <li role="presentation"><a href="<?= "$root/user/home" ?>">Dashboard</a></li>
                             <li role="presentation"><a href="#">Log out</a></li>
                         </ul>
                     </nav>
@@ -25,7 +26,9 @@
       <h1>My API Keys</h1>
     </div>
     <div class="col-md-1">
-      <a href="/apikey/new" class="btn btn-success pull-right top-margin25">Create</a>
+      <div class-"top-margin25">
+        <a href="/apikey/new" class="btn btn-success pull-right ">Create</a>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -40,7 +43,7 @@
             <tr>
                 <td width="40%"><?= $key->name; ?></td>
                 <td width="40%"><?= $key->key; ?></td>
-                <td width="20%"><a href="#" class="btn btn-danger">Delete</a></td>
+                <td width="20%"><a href="<?= "$root/apikey/delete?".$key->key ?>" class="btn btn-danger">Delete</a></td>
             </tr>
         <?php endforeach ?>
       </table>

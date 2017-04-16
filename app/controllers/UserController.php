@@ -2,6 +2,8 @@
 namespace App\Controllers;
 use App\Models\User;
 use App\Models\ApiKey;
+use App\Core\App;
+use PDO;
 
 class UserController {
     public function home(){
@@ -45,5 +47,12 @@ class UserController {
         $new_user->save();
         redirect("./home");
 
+    }
+
+    public function delete(){
+        $key = $_GET['key'];
+        $deleteQuery = App::get('connection')->prepare('Delete from apikeys where key = ?');
+        $deleteQuery->execute(array($key));
+        redirect("$root/user/home");
     }
 }

@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.css)$
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.css|\.js)$
 RewriteRule ^.*$ index.php [END]

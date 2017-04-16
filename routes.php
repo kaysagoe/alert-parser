@@ -5,6 +5,7 @@ $router->get(["docs" => "PageController@docs"]);
 $router->get(["user/home" => "UserController@home"]);
 $router->get(["user/new" => "UserController@signup"]);
 $router->get(["apikey/new" => "ApiKeyController@add"]);
+$router->get(["user/delete" => "UserController@delete"]);
 $router->post(["demo" => "PageController@demo"]);
 $router->post(["user/home" => "UserController@login"]);
 $router->post(["user/new" => "UserController@process_signup"]);
