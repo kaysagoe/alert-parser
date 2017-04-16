@@ -43,7 +43,7 @@
             <tr>
                 <td width="40%"><?= $key->name; ?></td>
                 <td width="40%"><?= $key->key; ?></td>
-                <td width="20%"><a href="<?= "$root/apikey/delete?key=".$key->key ?>" class="btn btn-danger">Delete</a></td>
+                <td width="20%"><a href="<?= "$root/user/delete?key=".$key->key ?>" class="btn btn-danger">Delete</a></td>
             </tr>
         <?php endforeach ?>
       </table>
