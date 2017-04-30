@@ -1,30 +1,12 @@
+#Bank Alert Parser API
+The Alerts Parser API converts Bank Alerts email messages and returns the information in the alert notification as structured data.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+A Parse Alert request is an HTTP URL in the following form:
 
+http://alertparser.herokuapp.com/api?parameters
 
-Hi there! Welcome to Cloud9 IDE!
+Certain parameters are required to initiate a Parse Alert request. As is standard in URLs all parameters are separated using the ampersand (&) character.
 
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+##Bank Codes
+1 - Guaranty Trust Bank
+2 - Wema Bank

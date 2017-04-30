@@ -9,3 +9,7 @@
 .min-height400 {
   min-height: 400px;
 }
+
+.monospace {
+  font-family: 'Inconsolata', monospace;
+}

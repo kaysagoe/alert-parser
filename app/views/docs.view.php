@@ -4,6 +4,7 @@
         <title>Home | Bank Alert Parser API</title>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="./app/resources/styles/styles.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -49,24 +50,24 @@
                     <h3>Responses</h3>
                     <p>The response of the API request is in JSON format.</p>
                     <p>The following shows an example of a response of an API Request</p>
-                    <div class="grey-background">
+                    <div class="grey-background monospace">
                         {<br />
                             "status":"OK",<br />
                             "results":{<br />
-                                "bankid":1,<br />
-                                "lastname":"DOE",<br />
-                                "firstname":"JANE",<br />
-                                "type":"Debit",<br />
-                                "accountnumber":"******1234",<br />
-                                "location":"IKEJA- ALLEN",<br />
-                                "description":null,<br />
-                                "amount":10,<br />
-                                "date":"01-Jan-2000",<br />
-                                "remarks":"",<br />
-                                "time":"12:00 AM",<br />
-                                "documentnumber":"0",<br />
-                                "currentbalance":1000000,<br />
-                                "accountbalance":1000000<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"bankid":1,<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"lastname":"DOE",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"firstname":"JANE",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"type":"Debit",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"accountnumber":"******1234",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"location":"IKEJA- ALLEN",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"description":null,<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"amount":10,<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"date":"01-Jan-2000",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"remarks":"",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"time":"12:00 AM",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"documentnumber":"0",<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"currentbalance":1000000,<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;"accountbalance":1000000<br />
                                 }<br />
                         }
                     </div>
