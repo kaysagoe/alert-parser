@@ -46,7 +46,7 @@ class Alert {
             $bank->sameline == true ? parseGenericTagsSameLine($alert2Process, $bank, $inputArray, $index, $pdo) : parseGenericTagsNextLine($alert2Process, $bank, $inputArray, $index, $pdo);
             
         }
-        $alert2Process->amount = (float) stripcommas($alert2Process->amount);
+        $alert2Process->amount = round((float) stripcommas($alert2Process->amount), 2);
         return $alert2Process;
     }
 }
@@ -111,7 +111,7 @@ class Alert {
             if(is_int(stripos($inputArray[$lineIndex], "Current Balance"))){
                 $accountarray = explode(":", $inputArray[$lineIndex]);
                 $alert2Process->currentbalance = trim($accountarray[2]);
-                $alert2Process->currentbalance = (float) stripcommas(removeCurrency($alert2Process->currentbalance, "NGN"));
+                $alert2Process->currentbalance = round((float) stripcommas(removeCurrency($alert2Process->currentbalance, "NGN")), 2);
             }
         }
 
